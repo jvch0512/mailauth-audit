@@ -1,0 +1,13 @@
+[package]
+name = "mailauth-audit"
+version = "0.1.0"
+edition = "2021"
+description = "Offline audit of SPF, DKIM and DMARC records against anti-spoofing best practices"
+license = "MIT"
+repository = "https://github.com/jvch0512/mailauth-audit"
+
+[[bin]]
+name = "mailauth-audit"
+path = "src/main.rs"
+
+[dependencies]
